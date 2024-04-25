@@ -359,7 +359,7 @@ public class Menu extends javax.swing.JFrame {
         );
 
         recogida.add(jRadioButton6);
-        jRadioButton6.setText("Reparto a domicilio");
+        jRadioButton6.setText("Reparto a domicilio.");
 
         recogida.add(jRadioButton7);
         jRadioButton7.setText("Recogida en local (-20% dto.)");
