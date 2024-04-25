@@ -5,7 +5,8 @@
 package burger;
 
 import java.text.DecimalFormat;
-//asddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
+import javax.swing.JOptionPane;
+
 /**
  *
  * @author Elena y Alicia
@@ -517,6 +518,7 @@ public class Menu extends javax.swing.JFrame {
         }
         if(jRadioButton4.isSelected()){
             precio+=1;
+            JOptionPane.showMessageDialog(rootPane, "Para pedir eso no comas nada xD");
         }
         if(jRadioButton23.isSelected()){
             precio+=1;
